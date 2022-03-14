@@ -1,0 +1,14 @@
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/page/HomePage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/tests/DetailTest.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/runner/CucumberRunner.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/contracts/ILoginPage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/page/DetailPage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/page/LoginPage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/page/SearchPage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/util/BasePageUtil.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/contracts/IDetailPage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/tests/BaseTest.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/contracts/ISearchPage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/contracts/IHomePage.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/tests/LoginTest.java
+/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/src/test/java/com/yesim/test/tests/SearchTest.java

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.yesim.test.runner.CucumberRunner" time="3.477" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/test-classes:/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/classes:/Users/testinium/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/testinium/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/Users/testinium/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/testinium/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/testinium/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/testinium/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-junit/2.4.0/cucumber-junit-2.4.0.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar:/Users/testinium/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/Users/testinium/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/Users/testinium/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-java/2.4.0/cucumber-java-2.4.0.jar:/Users/testinium/.m2/repository/com/google/guava/guava/24.0-jre/guava-24.0-jre.jar:/Users/testinium/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/testinium/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/testinium/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/testinium/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/testinium/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/testinium/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/surefire/surefirebooter103294978153713057.jar /Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/surefire 2021-11-25T00-00-57_936-jvmRun1 surefire7490014584020043838tmp surefire_07068395497252554003tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/test-classes:/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/classes:/Users/testinium/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/testinium/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/Users/testinium/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/testinium/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/testinium/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/testinium/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-junit/2.4.0/cucumber-junit-2.4.0.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar:/Users/testinium/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/Users/testinium/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/Users/testinium/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/testinium/.m2/repository/io/cucumber/cucumber-java/2.4.0/cucumber-java-2.4.0.jar:/Users/testinium/.m2/repository/com/google/guava/guava/24.0-jre/guava-24.0-jre.jar:/Users/testinium/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/testinium/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/testinium/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/testinium/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/testinium/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/testinium/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/testinium"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main/target/surefire/surefirebooter103294978153713057.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="testinium"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/testinium/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/cc/9t64wvhs36s9tyyg_hf7s8600000gn/T/"/>
+    <property name="idea.version" value="2021.1"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="/Users/testinium/Downloads/CucumberHepsiBuradaTestAutomationProject-main"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/testinium/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="/Users/testinium/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Geçerli kullanıcı ile uygulamaya giriş kontrolü" classname="Hepsi burada test senaryoları" time="2.245">
+    <error message="session not created: No matching capabilities found&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;testiniums-mbp.zte.com.cn&apos;, ip: &apos;fe80:0:0:0:1454:f31e:c6ad:118d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: 0   chromedriver                        0x0000000104637bb9 chromedriver + 2747321&#10;1   chromedriver                        0x0000000104cede03 chromedriver + 9784835&#10;2   chromedriver                        0x00000001043c4118 chromedriver + 176408&#10;3   chromedriver                        0x000000010441aab1 chromedriver + 531121&#10;4   chromedriver                        0x0000000104419f5d chromedriver + 528221&#10;5   chromedriver                        0x000000010441b678 chromedriver + 534136&#10;6   chromedriver                        0x0000000104415ac3 chromedriver + 510659&#10;7   chromedriver                        0x00000001043ec40e chromedriver + 341006&#10;8   chromedriver                        0x00000001043ed735 chromedriver + 345909&#10;9   chromedriver                        0x00000001045fe5df chromedriver + 2512351&#10;10  chromedriver                        0x000000010461126f chromedriver + 2589295&#10;11  chromedriver                        0x00000001045e2cbb chromedriver + 2399419&#10;12  chromedriver                        0x00000001046126ea chromedriver + 2594538&#10;13  chromedriver                        0x00000001045f3c8c chromedriver + 2469004&#10;14  chromedriver                        0x000000010462bf58 chromedriver + 2699096&#10;15  chromedriver                        0x000000010462c0e1 chromedriver + 2699489&#10;16  chromedriver                        0x000000010463cbc8 chromedriver + 2767816&#10;17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148&#10;18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x0000000104637bb9 chromedriver + 2747321
+1   chromedriver                        0x0000000104cede03 chromedriver + 9784835
+2   chromedriver                        0x00000001043c4118 chromedriver + 176408
+3   chromedriver                        0x000000010441aab1 chromedriver + 531121
+4   chromedriver                        0x0000000104419f5d chromedriver + 528221
+5   chromedriver                        0x000000010441b678 chromedriver + 534136
+6   chromedriver                        0x0000000104415ac3 chromedriver + 510659
+7   chromedriver                        0x00000001043ec40e chromedriver + 341006
+8   chromedriver                        0x00000001043ed735 chromedriver + 345909
+9   chromedriver                        0x00000001045fe5df chromedriver + 2512351
+10  chromedriver                        0x000000010461126f chromedriver + 2589295
+11  chromedriver                        0x00000001045e2cbb chromedriver + 2399419
+12  chromedriver                        0x00000001046126ea chromedriver + 2594538
+13  chromedriver                        0x00000001045f3c8c chromedriver + 2469004
+14  chromedriver                        0x000000010462bf58 chromedriver + 2699096
+15  chromedriver                        0x000000010462c0e1 chromedriver + 2699489
+16  chromedriver                        0x000000010463cbc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 5440
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Geçerli kullanıcı ile başarılı giriş yaptıktan sonra ürüne yorum yapılması" classname="Hepsi burada test senaryoları" time="0.124">
+    <error message="session not created: No matching capabilities found&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;testiniums-mbp.zte.com.cn&apos;, ip: &apos;fe80:0:0:0:1454:f31e:c6ad:118d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: 0   chromedriver                        0x0000000101e06bb9 chromedriver + 2747321&#10;1   chromedriver                        0x00000001024bce03 chromedriver + 9784835&#10;2   chromedriver                        0x0000000101b93118 chromedriver + 176408&#10;3   chromedriver                        0x0000000101be9ab1 chromedriver + 531121&#10;4   chromedriver                        0x0000000101be8f5d chromedriver + 528221&#10;5   chromedriver                        0x0000000101bea678 chromedriver + 534136&#10;6   chromedriver                        0x0000000101be4ac3 chromedriver + 510659&#10;7   chromedriver                        0x0000000101bbb40e chromedriver + 341006&#10;8   chromedriver                        0x0000000101bbc735 chromedriver + 345909&#10;9   chromedriver                        0x0000000101dcd5df chromedriver + 2512351&#10;10  chromedriver                        0x0000000101de026f chromedriver + 2589295&#10;11  chromedriver                        0x0000000101db1cbb chromedriver + 2399419&#10;12  chromedriver                        0x0000000101de16ea chromedriver + 2594538&#10;13  chromedriver                        0x0000000101dc2c8c chromedriver + 2469004&#10;14  chromedriver                        0x0000000101dfaf58 chromedriver + 2699096&#10;15  chromedriver                        0x0000000101dfb0e1 chromedriver + 2699489&#10;16  chromedriver                        0x0000000101e0bbc8 chromedriver + 2767816&#10;17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148&#10;18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x0000000101e06bb9 chromedriver + 2747321
+1   chromedriver                        0x00000001024bce03 chromedriver + 9784835
+2   chromedriver                        0x0000000101b93118 chromedriver + 176408
+3   chromedriver                        0x0000000101be9ab1 chromedriver + 531121
+4   chromedriver                        0x0000000101be8f5d chromedriver + 528221
+5   chromedriver                        0x0000000101bea678 chromedriver + 534136
+6   chromedriver                        0x0000000101be4ac3 chromedriver + 510659
+7   chromedriver                        0x0000000101bbb40e chromedriver + 341006
+8   chromedriver                        0x0000000101bbc735 chromedriver + 345909
+9   chromedriver                        0x0000000101dcd5df chromedriver + 2512351
+10  chromedriver                        0x0000000101de026f chromedriver + 2589295
+11  chromedriver                        0x0000000101db1cbb chromedriver + 2399419
+12  chromedriver                        0x0000000101de16ea chromedriver + 2594538
+13  chromedriver                        0x0000000101dc2c8c chromedriver + 2469004
+14  chromedriver                        0x0000000101dfaf58 chromedriver + 2699096
+15  chromedriver                        0x0000000101dfb0e1 chromedriver + 2699489
+16  chromedriver                        0x0000000101e0bbc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 8313
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Geçerli kullanıcının yorumlar tabında hiç yorum gelmiyorsa herhangi bir işlem yapmaması" classname="Hepsi burada test senaryoları" time="0.127">
+    <error message="session not created: No matching capabilities found&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;testiniums-mbp.zte.com.cn&apos;, ip: &apos;fe80:0:0:0:1454:f31e:c6ad:118d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: 0   chromedriver                        0x000000010d6d4bb9 chromedriver + 2747321&#10;1   chromedriver                        0x000000010dd8ae03 chromedriver + 9784835&#10;2   chromedriver                        0x000000010d461118 chromedriver + 176408&#10;3   chromedriver                        0x000000010d4b7ab1 chromedriver + 531121&#10;4   chromedriver                        0x000000010d4b6f5d chromedriver + 528221&#10;5   chromedriver                        0x000000010d4b8678 chromedriver + 534136&#10;6   chromedriver                        0x000000010d4b2ac3 chromedriver + 510659&#10;7   chromedriver                        0x000000010d48940e chromedriver + 341006&#10;8   chromedriver                        0x000000010d48a735 chromedriver + 345909&#10;9   chromedriver                        0x000000010d69b5df chromedriver + 2512351&#10;10  chromedriver                        0x000000010d6ae26f chromedriver + 2589295&#10;11  chromedriver                        0x000000010d67fcbb chromedriver + 2399419&#10;12  chromedriver                        0x000000010d6af6ea chromedriver + 2594538&#10;13  chromedriver                        0x000000010d690c8c chromedriver + 2469004&#10;14  chromedriver                        0x000000010d6c8f58 chromedriver + 2699096&#10;15  chromedriver                        0x000000010d6c90e1 chromedriver + 2699489&#10;16  chromedriver                        0x000000010d6d9bc8 chromedriver + 2767816&#10;17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148&#10;18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x000000010d6d4bb9 chromedriver + 2747321
+1   chromedriver                        0x000000010dd8ae03 chromedriver + 9784835
+2   chromedriver                        0x000000010d461118 chromedriver + 176408
+3   chromedriver                        0x000000010d4b7ab1 chromedriver + 531121
+4   chromedriver                        0x000000010d4b6f5d chromedriver + 528221
+5   chromedriver                        0x000000010d4b8678 chromedriver + 534136
+6   chromedriver                        0x000000010d4b2ac3 chromedriver + 510659
+7   chromedriver                        0x000000010d48940e chromedriver + 341006
+8   chromedriver                        0x000000010d48a735 chromedriver + 345909
+9   chromedriver                        0x000000010d69b5df chromedriver + 2512351
+10  chromedriver                        0x000000010d6ae26f chromedriver + 2589295
+11  chromedriver                        0x000000010d67fcbb chromedriver + 2399419
+12  chromedriver                        0x000000010d6af6ea chromedriver + 2594538
+13  chromedriver                        0x000000010d690c8c chromedriver + 2469004
+14  chromedriver                        0x000000010d6c8f58 chromedriver + 2699096
+15  chromedriver                        0x000000010d6c90e1 chromedriver + 2699489
+16  chromedriver                        0x000000010d6d9bc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 46354
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Geçersiz kullanıcı ile uygulamaya giriş kontrolü" classname="Hepsi burada test senaryoları" time="0.123">
+    <error message="session not created: No matching capabilities found&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;testiniums-mbp.zte.com.cn&apos;, ip: &apos;fe80:0:0:0:1454:f31e:c6ad:118d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: 0   chromedriver                        0x000000010f08abb9 chromedriver + 2747321&#10;1   chromedriver                        0x000000010f740e03 chromedriver + 9784835&#10;2   chromedriver                        0x000000010ee17118 chromedriver + 176408&#10;3   chromedriver                        0x000000010ee6dab1 chromedriver + 531121&#10;4   chromedriver                        0x000000010ee6cf5d chromedriver + 528221&#10;5   chromedriver                        0x000000010ee6e678 chromedriver + 534136&#10;6   chromedriver                        0x000000010ee68ac3 chromedriver + 510659&#10;7   chromedriver                        0x000000010ee3f40e chromedriver + 341006&#10;8   chromedriver                        0x000000010ee40735 chromedriver + 345909&#10;9   chromedriver                        0x000000010f0515df chromedriver + 2512351&#10;10  chromedriver                        0x000000010f06426f chromedriver + 2589295&#10;11  chromedriver                        0x000000010f035cbb chromedriver + 2399419&#10;12  chromedriver                        0x000000010f0656ea chromedriver + 2594538&#10;13  chromedriver                        0x000000010f046c8c chromedriver + 2469004&#10;14  chromedriver                        0x000000010f07ef58 chromedriver + 2699096&#10;15  chromedriver                        0x000000010f07f0e1 chromedriver + 2699489&#10;16  chromedriver                        0x000000010f08fbc8 chromedriver + 2767816&#10;17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148&#10;18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x000000010f08abb9 chromedriver + 2747321
+1   chromedriver                        0x000000010f740e03 chromedriver + 9784835
+2   chromedriver                        0x000000010ee17118 chromedriver + 176408
+3   chromedriver                        0x000000010ee6dab1 chromedriver + 531121
+4   chromedriver                        0x000000010ee6cf5d chromedriver + 528221
+5   chromedriver                        0x000000010ee6e678 chromedriver + 534136
+6   chromedriver                        0x000000010ee68ac3 chromedriver + 510659
+7   chromedriver                        0x000000010ee3f40e chromedriver + 341006
+8   chromedriver                        0x000000010ee40735 chromedriver + 345909
+9   chromedriver                        0x000000010f0515df chromedriver + 2512351
+10  chromedriver                        0x000000010f06426f chromedriver + 2589295
+11  chromedriver                        0x000000010f035cbb chromedriver + 2399419
+12  chromedriver                        0x000000010f0656ea chromedriver + 2594538
+13  chromedriver                        0x000000010f046c8c chromedriver + 2469004
+14  chromedriver                        0x000000010f07ef58 chromedriver + 2699096
+15  chromedriver                        0x000000010f07f0e1 chromedriver + 2699489
+16  chromedriver                        0x000000010f08fbc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 15496
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

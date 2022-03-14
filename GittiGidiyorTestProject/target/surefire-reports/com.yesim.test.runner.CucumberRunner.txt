@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: com.yesim.test.runner.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 3.477 s <<< FAILURE! - in com.yesim.test.runner.CucumberRunner
+Geçerli kullanıcı ile uygulamaya giriş kontrolü(Hepsi burada test senaryoları)  Time elapsed: 2.245 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x0000000104637bb9 chromedriver + 2747321
+1   chromedriver                        0x0000000104cede03 chromedriver + 9784835
+2   chromedriver                        0x00000001043c4118 chromedriver + 176408
+3   chromedriver                        0x000000010441aab1 chromedriver + 531121
+4   chromedriver                        0x0000000104419f5d chromedriver + 528221
+5   chromedriver                        0x000000010441b678 chromedriver + 534136
+6   chromedriver                        0x0000000104415ac3 chromedriver + 510659
+7   chromedriver                        0x00000001043ec40e chromedriver + 341006
+8   chromedriver                        0x00000001043ed735 chromedriver + 345909
+9   chromedriver                        0x00000001045fe5df chromedriver + 2512351
+10  chromedriver                        0x000000010461126f chromedriver + 2589295
+11  chromedriver                        0x00000001045e2cbb chromedriver + 2399419
+12  chromedriver                        0x00000001046126ea chromedriver + 2594538
+13  chromedriver                        0x00000001045f3c8c chromedriver + 2469004
+14  chromedriver                        0x000000010462bf58 chromedriver + 2699096
+15  chromedriver                        0x000000010462c0e1 chromedriver + 2699489
+16  chromedriver                        0x000000010463cbc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+
+Geçerli kullanıcı ile başarılı giriş yaptıktan sonra ürüne yorum yapılması(Hepsi burada test senaryoları)  Time elapsed: 0.124 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x0000000101e06bb9 chromedriver + 2747321
+1   chromedriver                        0x00000001024bce03 chromedriver + 9784835
+2   chromedriver                        0x0000000101b93118 chromedriver + 176408
+3   chromedriver                        0x0000000101be9ab1 chromedriver + 531121
+4   chromedriver                        0x0000000101be8f5d chromedriver + 528221
+5   chromedriver                        0x0000000101bea678 chromedriver + 534136
+6   chromedriver                        0x0000000101be4ac3 chromedriver + 510659
+7   chromedriver                        0x0000000101bbb40e chromedriver + 341006
+8   chromedriver                        0x0000000101bbc735 chromedriver + 345909
+9   chromedriver                        0x0000000101dcd5df chromedriver + 2512351
+10  chromedriver                        0x0000000101de026f chromedriver + 2589295
+11  chromedriver                        0x0000000101db1cbb chromedriver + 2399419
+12  chromedriver                        0x0000000101de16ea chromedriver + 2594538
+13  chromedriver                        0x0000000101dc2c8c chromedriver + 2469004
+14  chromedriver                        0x0000000101dfaf58 chromedriver + 2699096
+15  chromedriver                        0x0000000101dfb0e1 chromedriver + 2699489
+16  chromedriver                        0x0000000101e0bbc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+
+Geçerli kullanıcının yorumlar tabında hiç yorum gelmiyorsa herhangi bir işlem yapmaması(Hepsi burada test senaryoları)  Time elapsed: 0.127 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x000000010d6d4bb9 chromedriver + 2747321
+1   chromedriver                        0x000000010dd8ae03 chromedriver + 9784835
+2   chromedriver                        0x000000010d461118 chromedriver + 176408
+3   chromedriver                        0x000000010d4b7ab1 chromedriver + 531121
+4   chromedriver                        0x000000010d4b6f5d chromedriver + 528221
+5   chromedriver                        0x000000010d4b8678 chromedriver + 534136
+6   chromedriver                        0x000000010d4b2ac3 chromedriver + 510659
+7   chromedriver                        0x000000010d48940e chromedriver + 341006
+8   chromedriver                        0x000000010d48a735 chromedriver + 345909
+9   chromedriver                        0x000000010d69b5df chromedriver + 2512351
+10  chromedriver                        0x000000010d6ae26f chromedriver + 2589295
+11  chromedriver                        0x000000010d67fcbb chromedriver + 2399419
+12  chromedriver                        0x000000010d6af6ea chromedriver + 2594538
+13  chromedriver                        0x000000010d690c8c chromedriver + 2469004
+14  chromedriver                        0x000000010d6c8f58 chromedriver + 2699096
+15  chromedriver                        0x000000010d6c90e1 chromedriver + 2699489
+16  chromedriver                        0x000000010d6d9bc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+
+Geçersiz kullanıcı ile uygulamaya giriş kontrolü(Hepsi burada test senaryoları)  Time elapsed: 0.123 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'testiniums-mbp.zte.com.cn', ip: 'fe80:0:0:0:1454:f31e:c6ad:118d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_281'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 0   chromedriver                        0x000000010f08abb9 chromedriver + 2747321
+1   chromedriver                        0x000000010f740e03 chromedriver + 9784835
+2   chromedriver                        0x000000010ee17118 chromedriver + 176408
+3   chromedriver                        0x000000010ee6dab1 chromedriver + 531121
+4   chromedriver                        0x000000010ee6cf5d chromedriver + 528221
+5   chromedriver                        0x000000010ee6e678 chromedriver + 534136
+6   chromedriver                        0x000000010ee68ac3 chromedriver + 510659
+7   chromedriver                        0x000000010ee3f40e chromedriver + 341006
+8   chromedriver                        0x000000010ee40735 chromedriver + 345909
+9   chromedriver                        0x000000010f0515df chromedriver + 2512351
+10  chromedriver                        0x000000010f06426f chromedriver + 2589295
+11  chromedriver                        0x000000010f035cbb chromedriver + 2399419
+12  chromedriver                        0x000000010f0656ea chromedriver + 2594538
+13  chromedriver                        0x000000010f046c8c chromedriver + 2469004
+14  chromedriver                        0x000000010f07ef58 chromedriver + 2699096
+15  chromedriver                        0x000000010f07f0e1 chromedriver + 2699489
+16  chromedriver                        0x000000010f08fbc8 chromedriver + 2767816
+17  libsystem_pthread.dylib             0x00007fff6786b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff67866b8b thread_start + 15
+
+
